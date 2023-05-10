@@ -1,0 +1,26 @@
+.link {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 700;
+  color: #2a363b;
+  padding: 12px;
+}
+
+.link.active {
+  color:blue;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  width: 90px;
+  margin-bottom: 5px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  color: white;
+  background-color: blue;
+  text-align: center;
+}

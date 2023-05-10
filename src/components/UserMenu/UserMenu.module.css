@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.username {
+  font-weight: 700;
+  color:  blue;
+}
+
+.userNameBtn {
+  background-color: blue; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 16px;
+  border-radius: 8px;
+  height: 15px;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 0 5px yellow;
+  }
+}
